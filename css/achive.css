@@ -1,0 +1,336 @@
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+}
+
+body{
+	font-family: arial, sans-serif;
+	overflow-x: hidden;
+	height: 100%;
+	font-size: 20px;
+}
+.image{width: 95%;}
+
+/*=======================nav bar===================================*/
+header{
+    height: 19%;
+    box-shadow: 0px 6px 5px 1px #696969;
+    background-color: #00afb5;
+}
+
+.club{
+	margin-right: 85px;
+	width: 180px;
+}
+.head h1{
+    color: #BBDEFB;
+    text-shadow: 2px 2px 0px #37474F, 4px 3px 2px #37474F;
+    font-family: agency fb;
+    font-size: 62px;
+    word-spacing: 12px;
+    letter-spacing: 1px;
+}
+
+.head h3{
+	color: rgba(0,0,0,0.8);
+	font-family: Verdana;
+	font-size: 37px;
+}
+
+nav li{
+	list-style: none;
+	display: inline;
+	width: 100%;
+
+}
+
+
+ul li a{
+	padding: 19px 20px 15px 20px;
+    text-decoration: none;
+	color: #ffffff;
+	text-transform: uppercase;
+	font-family: arial;
+	font-size: 70%;
+	font-weight: bold;
+	display: box;
+}
+
+ul li a:hover{
+	background-color: #7fcbcd;
+	color: #00979d;
+	cursor: pointer;
+	
+}
+
+table{
+	margin: auto;
+}
+
+
+.main-nav{
+	line-height: 50px;
+	background-color: #00979d;
+	width: 100%;
+	height: 50px;
+	text-align: center;
+}
+
+/*===================================start of body===============================*/
+
+section{
+	width: 100%;
+}
+
+section h1{
+	color: #d63031;
+	font-size: 180%;
+}
+
+section h6{
+	font-size: 130%;
+	font-weight: lighter;
+	color: #6c5ce7;
+	font-family: Berlin Sans FB
+}
+
+section .ai{
+	color: #d35400;
+}
+
+section .ai:hover{
+	color: #e74c3c;
+	border-bottom: 2px solid #e74c3c;
+}
+
+.focus{
+	text-align: center;
+	margin: 0 10%;
+}
+
+.phy-cont{
+	border: 5px solid #D500F9;
+}
+
+.chy-cont{
+	border: 5px solid #D500F9;
+}
+
+.biology-cont{
+	border: 5px solid #D500F9;
+}
+
+.jusc-2nd{
+	border: 5px solid #D500F9;
+}
+
+/*================================footer==============================*/
+
+footer{
+	text-align: center;
+	width: 100%;
+	background-color: #BF360C;
+	color: #CFD8DC;
+}
+
+.footer-nav .foot{
+	padding: 10px 20px;
+}
+
+
+.footer-nav .foot:hover{
+	background-color: #82B1FF;
+	color: #0D47A1;
+	border-radius: 15px;
+
+}
+
+
+.profile{
+	text-decoration: none;
+	color: #7ed6df;
+	border-bottom: 2px solid #7ed6df;
+}
+
+
+
+/*===========responsive=============*/
+
+
+/*tablet, landscape, low resulation laptop and desktop*/
+@media(max-width: 992px){
+	
+	.club{
+		height: 150px;
+		width: 150px;
+	}
+
+	.head h1{
+		font-size: 47px;
+	}
+
+	.head h3{
+		font-size: 36px;
+	}
+
+	
+	ul li a{
+		font-size: 60%;
+	}
+
+	.focus h1{
+		font-size: 120%;
+	}
+
+	.focus h6{
+		font-size: 90%;
+	}
+
+	/*footer navbar*/
+	.footer-nav .foot{
+		padding: 10px 20px;
+	}
+
+}
+
+
+
+/*portrait tablet, e-book reader*/
+@media(max-width: 768px){
+	
+	.club{
+		margin-right: 20px;
+		width: 150px;
+	}
+
+	.head h1{
+		font-size:45px;
+        word-spacing: 10px;
+	}
+
+	.head h3{
+		font-size: 33px;
+	}
+
+	/*nav bar responsive*/
+	ul li a{
+		padding: 19px 15px 15px 15px;
+		font-size: 47%;
+		margin-right: 0px;
+		margin-left: 0px;
+	}
+
+	.focus h1{
+		font-size: 120%;
+	}
+
+	.focus h6{
+		font-size: 90%;
+	}
+
+	/*footer navbar*/
+	.footer-nav .foot{
+		padding: 10px 15px;
+	}
+
+}
+
+
+/*smartphone, andriod, iphone*/
+@media (max-width: 600px){
+
+	.club{
+		margin-right: 0px;
+		height: 120px;
+		width: 120px;
+	}
+
+	.head h1{
+		font-size:41px;
+        word-spacing: 7px;
+	}
+
+	.head h3{
+		font-size: 29px;
+	}
+
+
+	/*nav bar responsive*/
+	ul li a{
+		padding: 19px 7px 15px 7px;
+		font-size: 47%;
+		margin-right: 0px;
+		margin-left: 0px;
+	}
+	
+	.mo-cont h6{
+		font-size: 50%;
+	}
+
+	.co-cont h6{
+		font-size: 50%;
+	}
+
+	.name{
+		font-size: 70%;
+	}
+
+	.focus h1{
+		font-size: 120%;
+	}
+
+	.focus h6{
+		font-size: 90%;
+	}
+
+	/*footer navbar*/
+	.footer-nav .foot{
+		padding: 10px 5px;
+	}
+
+}
+
+
+/*portrait iphone, portraite 480x320 phones (Android)*/
+@media (max-width: 480px){
+
+	.club{
+		margin-right: 0px;
+		height: 110px;
+		width: 110px;
+	}
+
+	
+	.head h1{
+		font-size:33px;
+        word-spacing:3px; 
+	}
+
+	.head h3{
+		font-size: 23px;
+	}
+
+	/*nav bar responsive*/
+	ul li a{
+		padding: 19px 2px 15px 2px;
+		font-size: 47%;
+		margin-right: 0px;
+		margin-left: 0px;
+	}
+
+	.focus h1{
+		font-size: 120%;
+	}
+
+	.focus h6{
+		font-size: 90%;
+	}
+    
+	/*footer navbar*/
+	.footer-nav .foot{
+		padding: 10px 2px;
+	}
+
+}

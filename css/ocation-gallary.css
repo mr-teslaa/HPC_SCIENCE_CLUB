@@ -1,0 +1,317 @@
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+}
+
+body{
+	font-family: arial, sans-serif;
+	overflow-x: hidden;
+	height: 100%;
+	font-size: 20px;
+}
+
+/*=======================nav bar===================================*/
+header{
+    height: 19%;
+    box-shadow: 0px 6px 5px 1px #696969;
+    background-color: #00afb5;
+}
+
+.club{
+	margin-right: 85px;
+	width: 180px;
+}
+.head h1{
+    color: #BBDEFB;
+    text-shadow: 2px 2px 0px #37474F, 4px 3px 2px #37474F;
+    font-family: agency fb;
+    font-size: 62px;
+    word-spacing: 12px;
+    letter-spacing: 1px;
+}
+
+.head h3{
+	color: rgba(0,0,0,0.8);
+	font-family: Verdana;
+	font-size: 37px;
+}
+
+nav li{
+	list-style: none;
+	display: inline;
+	width: 100%;
+
+}
+
+
+ul li a{
+	padding: 19px 20px 15px 20px;
+    text-decoration: none;
+	color: #ffffff;
+	text-transform: uppercase;
+	font-family: arial;
+	font-size: 70%;
+	font-weight: bold;
+	display: box;
+}
+
+ul li a:hover{
+	background-color: #7fcbcd;
+	color: #00979d;
+	cursor: pointer;
+	
+}
+
+table{
+	margin: auto;
+}
+
+.main-nav{
+	line-height: 50px;
+	background-color: #00979d;
+	width: 100%;
+	height: 50px;
+	text-align: center;
+}
+
+/*===================================start of body===============================*/
+
+section{
+	width: 100%;
+	background-color: #e0e0e0; 
+}
+
+section table{
+	border-spacing: 50px;
+}
+
+section h3{
+	font-family: cursive;
+	font-size: 200%;
+	color: #0f30e8;
+	text-align: center;
+}
+.pic{width:100%;height:100% ;transition-duration:.3s;  }
+.pic:hover{box-shadow:0px 0px 10px 4px rgba(0, 0, 0, 0.4);   }
+.mian-cont{
+    width:95%;
+    margin:10px auto 50px;;
+    display: grid;
+    grid-template-columns:49% 49%;
+    grid-gap: 2%;
+}
+
+
+/*================================footer==============================*/
+
+footer{
+	text-align: center;
+	width: 100%;
+	background-color: #BF360C;
+	color: #CFD8DC;
+}
+
+.footer-nav .foot{
+
+padding: 10px 20px;
+
+}
+
+
+.footer-nav .foot:hover{
+	background-color: #82B1FF;
+	color: #0D47A1;
+	border-radius: 15px;
+
+}
+
+
+.profile{
+	text-decoration: none;
+	color: #7ed6df;
+	border-bottom: 2px solid #7ed6df;
+}
+
+/*===========responsive=============*/
+
+
+/*tablet, landscape, low resulation laptop and desktop*/
+@media(max-width: 992px){
+	
+	.club{
+		height: 150px;
+		width: 150px;
+	}
+
+	.head h1{
+		font-size: 47px;
+	}
+
+	.head h3{
+		font-size: 36px;
+	}
+
+	
+	ul li a{
+		font-size: 60%;
+	}
+
+	.focus h1{
+		font-size: 120%;
+	}
+
+	.focus h6{
+		font-size: 90%;
+	}
+
+	/*footer navbar*/
+	.footer-nav .foot{
+		padding: 10px 20px;
+	}
+    
+.main-table .image{
+	height: 240px;
+	width: 240px;
+    margin: 0 auto;
+	border-radius: 50%;
+    overflow: hidden;
+}
+}
+
+
+
+/*portrait tablet, e-book reader*/
+@media(max-width: 788px){
+	
+	.club{
+		margin-right: 20px;
+		width: 150px;
+	}
+
+	.head h1{
+		font-size:45px;
+        word-spacing: 10px;
+	}
+
+	.head h3{
+		font-size: 33px;
+	}
+
+	/*nav bar responsive*/
+	ul li a{
+		padding: 19px 15px 15px 15px;
+		font-size: 47%;
+		margin-right: 0px;
+		margin-left: 0px;
+	}
+
+	.focus h1{
+		font-size: 120%;
+	}
+
+	.focus h6{
+		font-size: 90%;
+	}
+.grid{
+    padding-top:10px;
+    display: grid;
+    width:97%;
+    margin: 0 auto;
+    grid-template-columns: 50% 50%;
+    
+}
+.main-table .image{
+	height: 260px;
+	width: 260px;
+    margin-bottom: 10px;
+}
+	/*footer navbar*/
+	.footer-nav .foot{
+		padding: 10px 15px;
+	}
+
+}
+
+
+/*smartphone, andriod, iphone*/
+@media (max-width: 670px){
+
+	.club{
+		margin-right: 0px;
+		height: 120px;
+		width: 120px;
+	}
+
+	.head h1{
+		font-size:41px;
+        word-spacing: 7px;
+	}
+
+	.head h3{
+		font-size: 29px;
+	}
+
+
+	/*nav bar responsive*/
+	ul li a{
+		padding: 19px 7px 15px 7px;
+		font-size: 47%;
+		margin-right: 0px;
+		margin-left: 0px;
+	}
+    .mian-cont{width:90%;
+    margin-bottom:200px; 
+    display: grid;
+    grid-template-columns:100%;
+}
+
+}
+
+
+/*portrait iphone, portraite 480x320 phones (Android)*/
+@media (max-width: 480px){
+
+	.club{
+		margin-right: 0px;
+		height: 110px;
+		width: 110px;
+	}
+
+	
+	.head h1{
+		font-size:33px;
+        word-spacing:3px; 
+	}
+
+	.head h3{
+		font-size: 23px;
+	}
+
+	section h3{
+		font-size: 25px;
+	}
+
+	/*nav bar responsive*/
+	ul li a{
+		padding: 19px 2px 15px 2px;
+		font-size: 47%;
+		margin-right: 0px;
+		margin-left: 0px;
+	}
+
+	.focus h1{
+		font-size: 120%;
+	}
+
+	.focus h6{
+		font-size: 90%;
+	}
+    
+	/*footer navbar*/
+	.footer-nav .foot{
+		padding: 10px 2px;
+	}
+
+}

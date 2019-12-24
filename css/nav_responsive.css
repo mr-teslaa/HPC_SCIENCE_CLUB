@@ -1,0 +1,101 @@
+.nav_toggle_btn{
+    display: none;
+    width: 30px;
+    padding:15px; 
+}
+.nav_toggle_btn span{
+    width:30px;
+    display: block;
+    height:4px;
+    margin-top: 4px;
+    background: #fff;
+    border-radius:1px; 
+}
+.nav_toggle_btn span:nth-child(1){margin: 0;}
+
+.nav_toggle_btn:hover{
+    background-color: #7fcbcd;
+    cursor: pointer;}
+.nav_toggle_btn:hover span{background-color: #00979d;}
+/* The side navigation menu */
+.sidenav {
+  height: 100%; /* 100% Full-height */
+  width: 0; /* 0 width - change this with JavaScript */
+  position: fixed; /* Stay in place */
+  z-index: 999999; /* Stay on top */
+  top: 0;
+  left: 0;
+  text-align: center;
+  background-color: #00979d; 
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 60px; /* Place content 60px from the top */
+  transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+}
+/*active page style     */
+.activ{background-color: #7fcbcd;
+	color: #00979d;}
+/*active page style end*/
+/* The navigation menu links */
+.sidenav a {
+  position: relative;
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 27px;
+  color: #fff;
+  display: block;
+  transition: 0.8s;
+  text-transform: capitalize;
+}
+.sidenav a span{
+    width: 100%;
+    height:37px; 
+    line-height:37px; 
+    text-align: center;
+    position: relative;
+    z-index: 999;
+}
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover{color:#00979d }
+.sidenav a::before {
+  content: '';
+  position: absolute;
+  left: 0; 
+  width:0px;
+  height:37px; 
+  background-color: #7fcbcd;
+  transition-duration: .4s;
+    border-radius:3px; 
+}
+.sidenav a:hover::before{width: 100%}
+/* Position and style the close button (top right corner) */
+.sidenav .closebtn {
+  position: absolute;
+  text-align: center;
+  top: 5px;
+  right: 5px;
+  font-size: 36px;
+  margin-left: 50px;
+  line-height: 20px  ;
+  height: 20px;
+  padding-left: 9px;
+  border-radius: 3px;
+}
+.sidenav .closebtn:hover{
+    
+}
+/* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+#main {
+  transition: margin-left .5s;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+@media screen and (max-width: 867px) {
+  nav{background: #00979d; }
+    .nav_toggle_btn{display: block;}
+    #main_nav{display: none;}
+}
+

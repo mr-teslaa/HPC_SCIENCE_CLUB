@@ -1,0 +1,84 @@
+Home page Image Link
+
+            Logo Link of HPC SCIENCE CLUB   : http://hpcscienceclub.cf/image/club.png
+
+
+            Slider Image Link
+                Slide One   :   http://hpcscienceclub.cf/image/slider/drone-slideOne.jpg
+                Slide Two   :   http://hpcscienceclub.cf/image/slider/chemist-slideTwo.jpg
+                Slide Three :   http://hpcscienceclub.cf/image/slider/wallE-slideThree.jpg
+                Slide Four  :   http://hpcscienceclub.cf/image/slider/car-slideFour.jpg
+                Slide Five  :   http://hpcscienceclub.cf/image/slider/laptop-slideFive.jpg
+
+
+            Modaretor Image     :   http://hpcscienceclub.cf/image/shafiqul%20alam.jpg
+
+            Co-Modaretor Image  :   http://hpcscienceclub.cf/image/Ali%20Akter%20sir.jpg
+
+-----------------------------------------------------------------------------------------------------------------------
+
+Achivement Page Image Link
+
+            Physics Catgory Group Image Link        :   http://hpcscienceclub.cf/image/win/physics.jpg
+
+            Chemistry Catagory Group Image Link     :   http://hpcscienceclub.cf/image/win/chemistry.jpg
+
+            Biology Catagory Group Image Link       :   http://hpcscienceclub.cf/image/win/biology.jpg
+
+            JUSC Science Festival Group Image Link  :   http://hpcscienceclub.cf/image/3rd%20jusc%20(1).jpg
+
+
+-----------------------------------------------------------------------------------------------------------------------
+
+Project Page Image Link
+
+            CNC Machine Image Link                         :   http://hpcscienceclub.cf/image/cnc.PNG   
+
+            Artificial Intelligence Image Link             :   http://hpcscienceclub.cf/image/cool%20ai.jpg
+
+            Line Follower Robot Image Link [ Arduino ]     :   http://hpcscienceclub.cf/image/linefollower.PNG
+
+            Line Follower Robot Image Link [ No Arduino ]  :   http://hpcscienceclub.cf/image/lfr.PNG
+
+            Proxuimity Sensor Image Link                   :   http://hpcscienceclub.cf/image/project/proximity.PNG
+
+            Android Control Car Image Link                 :   http://hpcscienceclub.cf/image/android%20control%20car.PNG
+
+
+-----------------------------------------------------------------------------------------------------------------------
+
+
+Team Page Image Link
+
+            USE THIS ANIMATED IMAGE FOR ALL IMAGE
+
+            Animated Image Link [ Men ]     :   https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fwww.w3schools.com%2Fbootstrap%2Fimg_avatar3.png&f=1&nofb=1
+
+            Animated Image Link [ Women ]   :   https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcdn.pixabay.com%2Fphoto%2F2016%2F08%2F20%2F05%2F36%2Favatar-1606914_960_720.png&f=1&nofb=1
+
+-----------------------------------------------------------------------------------------------------------------------
+
+
+Learn Page Image Link
+
+            Science Section Image Link              :   http://hpcscienceclub.cf/image/louis-reed-747379-unsplash%20-%20Copy.jpg
+
+            Electronics Section Image Link          :   http://hpcscienceclub.cf/image/electronics.jpg
+
+            Coding Section Image Link               :   http://hpcscienceclub.cf/image/coding.jpg
+
+            Self Development Section Image Link     :   http://hpcscienceclub.cf/image/self-development.jpg
+
+
+-----------------------------------------------------------------------------------------------------------------------
+
+
+Gallery Page Imag Link
+
+            USE THIS IMAGE FOR ALL IMAGE
+
+            Image Link      :   http://hpcscienceclub.cf/image/ocation/3rd%20jusc%20(1).jpg
+
+
+
+-----------------------------------------------------------------------------------------------------------------------

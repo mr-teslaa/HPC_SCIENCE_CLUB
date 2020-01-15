@@ -222,6 +222,21 @@ footer{
 		margin-left: 0px;
 	}
 
+	/* mobile navbar */
+	nav .nav_toggle_btn{
+		display: flex;
+		justify-content: flex-start;
+		align-items: center;
+	}
+
+	nav .menu-name{
+		color: #fff;
+		font-weight: 700;
+		font-size: 1.5rem;
+
+		padding-left: 10px;
+	}
+
 	.focus h1{
 		font-size: 120%;
 	}
@@ -265,6 +280,21 @@ footer{
 		margin-left: 0px;
 	}
 	
+	/* mobile navbar */
+	nav .nav_toggle_btn{
+		display: flex;
+		justify-content: flex-start;
+		align-items: center;
+	}
+
+	nav .menu-name{
+		color: #fff;
+		font-weight: 700;
+		font-size: 1.5rem;
+
+		padding-left: 10px;
+	}
+
 	.mo-cont h6{
 		font-size: 50%;
 	}
@@ -318,6 +348,21 @@ footer{
 		font-size: 47%;
 		margin-right: 0px;
 		margin-left: 0px;
+	}
+
+	/* mobile navbar */
+	nav .nav_toggle_btn{
+		display: flex;
+		justify-content: flex-start;
+		align-items: center;
+	}
+
+	nav .menu-name{
+		color: #fff;
+		font-weight: 700;
+		font-size: 1.5rem;
+
+		padding-left: 10px;
 	}
 
 	.focus h1{

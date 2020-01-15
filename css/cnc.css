@@ -115,6 +115,20 @@ section h1{color: #ffffff;}
 	text-align: center;
 	font-family: monospace;
 	font-size: 200%; 
+
+	width:80%;
+    margin:2% auto;
+}
+
+/* .make-cnc .cnc-video{
+	height: 400px;
+	width: 800px;
+	margin: auto;
+} */
+
+.project-video{
+	margin: 10px auto;
+    width:100%; 
 }
 
 /*================================footer==============================*/
@@ -219,9 +233,28 @@ padding: 10px 20px;
 		margin-left: 0px;
 	}
 
+	/* mobile navbar */
+	nav .nav_toggle_btn{
+		display: flex;
+		justify-content: flex-start;
+		align-items: center;
+	}
+
+	nav .menu-name{
+		color: #fff;
+		font-weight: 700;
+		font-size: 1.5rem;
+
+		padding-left: 10px;
+	}
+
 	.make-cnc p{
 		font-size: 80%;
 		margin: 0 8% 2% 8%;
+	}
+
+	.project-video{
+		height: 300px;
 	}
 
 	/*footer navbar*/
@@ -305,6 +338,21 @@ padding: 10px 20px;
 		margin-left: 0px;
 	}
 
+	/* mobile navbar */
+	nav .nav_toggle_btn{
+		display: flex;
+		justify-content: flex-start;
+		align-items: center;
+	}
+
+	nav .menu-name{
+		color: #fff;
+		font-weight: 700;
+		font-size: 1.5rem;
+
+		padding-left: 10px;
+	}
+
 	.cnc{
 		height: 250px;
 		width: 250px;
@@ -322,9 +370,8 @@ padding: 10px 20px;
 		font-size: 50%;
 	}
 
-	.cnc-video{
+	.project-video{
 		height: 200px;
-		width: 450px;
 	}
 
 	/*footer navbar*/

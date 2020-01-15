@@ -222,6 +222,21 @@ footer{
 		font-size: 47%;
 		margin-right: 0px;
 		margin-left: 0px;
+	}   
+
+	/* mobile navbar */
+	nav .nav_toggle_btn{
+		display: flex;
+		justify-content: flex-start;
+		align-items: center;
+	}
+
+	nav .menu-name{
+		color: #fff;
+		font-weight: 700;
+		font-size: 1.5rem;
+
+		padding-left: 10px;
 	}
 
 	.focus h1{
@@ -231,19 +246,22 @@ footer{
 	.focus h6{
 		font-size: 90%;
 	}
-.grid{
-    padding-top:10px;
-    display: grid;
-    width:97%;
-    margin: 0 auto;
-    grid-template-columns: 50% 50%;
+	
+	.grid {
+		padding-top:10px;
+		display: grid;
+		width:97%;
+		margin: 0 auto;
+		grid-template-columns: 50% 50%;
     
-}
-.main-table .image{
-	height: 260px;
-	width: 260px;
-    margin-bottom: 10px;
-}
+	}
+
+	.main-table .image{
+		height: 260px;
+		width: 260px;
+    	margin-bottom: 10px;
+	}
+
 	/*footer navbar*/
 	.footer-nav .foot{
 		padding: 10px 15px;

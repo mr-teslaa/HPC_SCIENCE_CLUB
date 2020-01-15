@@ -3,7 +3,7 @@
     width: 30px;
     padding:15px; 
 }
-.nav_toggle_btn span{
+.nav_toggle_btn .menu{
     width:30px;
     display: block;
     height:4px;
@@ -11,12 +11,12 @@
     background: #fff;
     border-radius:1px; 
 }
-.nav_toggle_btn span:nth-child(1){margin: 0;}
+.nav_toggle_btn .menu:nth-child(1){margin: 0;}
 
 .nav_toggle_btn:hover{
     background-color: #7fcbcd;
     cursor: pointer;}
-.nav_toggle_btn:hover span{background-color: #00979d;}
+.nav_toggle_btn:hover .menu{background-color: #00979d;}
 /* The side navigation menu */
 .sidenav {
   height: 100%; /* 100% Full-height */

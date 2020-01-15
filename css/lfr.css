@@ -111,6 +111,9 @@ section h1{color: #ffffff;}
 .make-lfr{
 	font-family: monospace;
 	font-size: 200%; 
+
+	width: 80%;
+	margin: 2% auto;
 }
 
 .make-lfr p{
@@ -126,9 +129,6 @@ section h1{color: #ffffff;}
 .frame iframe{
     width:100%; 
     height:100%;
-}
-.make-lfr video{
-	margin: 2% 10%;
 }
 
 .lfr{
@@ -221,11 +221,11 @@ padding: 10px 20px;
 		padding: 10px 20px;
 	}
 
-.frame{
-    width:510px;
-    height:305px;
-    margin:10px auto;
-}
+	.frame{
+		width:510px;
+		height:305px;
+		margin:10px auto;
+	}
 }
 
 
@@ -254,6 +254,21 @@ padding: 10px 20px;
 		margin-right: 0px;
 		margin-left: 0px;
 	}
+	
+	/* mobile navbar */
+	nav .nav_toggle_btn{
+		display: flex;
+		justify-content: flex-start;
+		align-items: center;
+	}
+
+	nav .menu-name{
+		color: #fff;
+		font-weight: 700;
+		font-size: 1.5rem;
+
+		padding-left: 10px;
+	}
 
 	.lfr {
         height: 250px;
@@ -271,7 +286,7 @@ padding: 10px 20px;
 	
 	/*customize button*/
 	.arduino{
-		font-size: 90%;
+		display: none;
 	}
 
     .make-lfr p {
@@ -316,6 +331,21 @@ padding: 10px 20px;
 		margin-right: 0px;
 		margin-left: 0px;
 	}
+
+	/* mobile navbar */
+	nav .nav_toggle_btn{
+		display: flex;
+		justify-content: flex-start;
+		align-items: center;
+	}
+
+	nav .menu-name{
+		color: #fff;
+		font-weight: 700;
+		font-size: 1.5rem;
+
+		padding-left: 10px;
+	}
 	
 	.lfr {
         height: 250px;
@@ -333,7 +363,7 @@ padding: 10px 20px;
 	
 	/*customize button*/
 	.arduino{
-		font-size: 90%;
+		display: none;
 	}
 
     .make-lfr p {
@@ -375,7 +405,22 @@ padding: 10px 20px;
         font-size: 47%;
         margin-right: 0px;
         margin-left: 0px;
-    }
+	}
+	
+	/* mobile navbar */
+	nav .nav_toggle_btn{
+		display: flex;
+		justify-content: flex-start;
+		align-items: center;
+	}
+
+	nav .menu-name{
+		color: #fff;
+		font-weight: 700;
+		font-size: 1.5rem;
+
+		padding-left: 10px;
+	}
 
     .lfr {
         height: 200px;
@@ -394,7 +439,7 @@ padding: 10px 20px;
 	
 	/*customize button*/
 	.arduino{
-		font-size: 90%;
+		display: none;
 	}
 
     .make-lfr p {
@@ -404,10 +449,11 @@ padding: 10px 20px;
     /*footer navbar*/
     .footer-nav .foot {
         padding: 10px 2px;
-    }
-.frame{
-    width:410px;
-    height:225px;
-    margin:10px auto;
-}
+	}
+	
+	.frame{
+		width:410px;
+		height:225px;
+		margin:10px auto;
+	}
 }

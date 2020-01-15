@@ -253,6 +253,21 @@ padding: 10px 20px;
 		margin-left: 0px;
 	}
 
+	/* mobile navbar */
+	nav .nav_toggle_btn{
+		display: flex;
+		justify-content: flex-start;
+		align-items: center;
+	}
+
+	nav .menu-name{
+		color: #fff;
+		font-weight: 700;
+		font-size: 1.5rem;
+
+		padding-left: 10px;
+	}
+
 	img.android{
         height: 300px;
         width: 500px;
@@ -312,6 +327,21 @@ padding: 10px 20px;
 		font-size: 47%;
 		margin-right: 0px;
 		margin-left: 0px;
+	}
+
+	/* mobile navbar */
+	nav .nav_toggle_btn{
+		display: flex;
+		justify-content: flex-start;
+		align-items: center;
+	}
+
+	nav .menu-name{
+		color: #fff;
+		font-weight: 700;
+		font-size: 1.5rem;
+
+		padding-left: 10px;
 	}
 	
 	img.android {
@@ -376,7 +406,22 @@ padding: 10px 20px;
         font-size: 47%;
         margin-right: 0px;
         margin-left: 0px;
-    }
+	}
+	
+	/* mobile navbar */
+	nav .nav_toggle_btn{
+		display: flex;
+		justify-content: flex-start;
+		align-items: center;
+	}
+
+	nav .menu-name{
+		color: #fff;
+		font-weight: 700;
+		font-size: 1.5rem;
+
+		padding-left: 10px;
+	}
 
     .arduino, .black{
         display: none;

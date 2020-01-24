@@ -110,21 +110,18 @@ section .ai:hover{
 	margin: 0 10%;
 }
 
-.phy-cont{
+.phy-cont,
+.jusc-2nd,
+.biology-cont,
+.chy-cont,
+.dcsc-cont{
 	border: 5px solid #D500F9;
 }
 
-.chy-cont{
-	border: 5px solid #D500F9;
+.dcsc-cont{
+	margin-bottom: 30px;
 }
 
-.biology-cont{
-	border: 5px solid #D500F9;
-}
-
-.jusc-2nd{
-	border: 5px solid #D500F9;
-}
 
 /*================================footer==============================*/
 
